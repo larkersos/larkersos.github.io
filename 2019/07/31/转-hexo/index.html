@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转） | 落客纷纷 | 一家记言，记录生活的点点滴滴</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="学习,hexo ">
+    <meta name="description" content="【持续更新】最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析  https:&#x2F;&#x2F;www.simon96.online&#x2F;2018&#x2F;10&#x2F;12&#x2F;hexo-tutorial&#x2F;  前言 欢迎在文末留言，或者点击加入QQ群933583982互相交流。 本文采用 CC BY-NC-SA 4.0 许可协议，转载请注明出处！博客搭建准备环境 Node.js 下载，并安装。详细步骤：https:&#x2F;&#x2F;ww">
+<meta property="og:type" content="article">
+<meta property="og:title" content="最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）">
+<meta property="og:url" content="http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/index.html">
+<meta property="og:site_name" content="落客纷纷">
+<meta property="og:description" content="【持续更新】最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析  https:&#x2F;&#x2F;www.simon96.online&#x2F;2018&#x2F;10&#x2F;12&#x2F;hexo-tutorial&#x2F;  前言 欢迎在文末留言，或者点击加入QQ群933583982互相交流。 本文采用 CC BY-NC-SA 4.0 许可协议，转载请注明出处！博客搭建准备环境 Node.js 下载，并安装。详细步骤：https:&#x2F;&#x2F;ww">
+<meta property="article:published_time" content="2019-07-31T04:53:00.000Z">
+<meta property="article:modified_time" content="2019-07-31T04:53:00.000Z">
+<meta property="article:author" content="洛克">
+<meta property="article:tag" content="学习">
+<meta property="article:tag" content="hexo ">
+<meta name="twitter:card" content="summary">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.png">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">洛克</h5>
+          <a href="mailto:larker@foxmail.com" title="larker@foxmail.com" class="mail">larker@foxmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                Archives
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                Tags
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                Categories
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/larkersos" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://www.weibo.com/lark2005" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                Weibo
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2019-07-31T04:53:00.000Z" itemprop="datePublished" class="page-time">
+  2019-07-31
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Deployment"><span class="post-toc-number">1.</span> <span class="post-toc-text">Deployment</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Docs-https-hexo-io-docs-deployment-html"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Deployment-1"><span class="post-toc-number">2.</span> <span class="post-toc-text">Deployment</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Docs-https-hexo-io-docs-deployment-html-1"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Extensions"><span class="post-toc-number">3.</span> <span class="post-toc-text">Extensions</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Plugins-https-hexo-io-plugins"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">Plugins: https:&#x2F;&#x2F;hexo.io&#x2F;plugins&#x2F;</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Themes-https-hexo-io-themes"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Themes: https:&#x2F;&#x2F;hexo.io&#x2F;themes&#x2F;</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Back-to-top-in-sidebar"><span class="post-toc-number">4.</span> <span class="post-toc-text">Back to top in sidebar</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Scroll-percent-label-in-b2t-button"><span class="post-toc-number">5.</span> <span class="post-toc-text">Scroll percent label in b2t button</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-转-hexo"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2019-07-31 12:53:00" datetime="2019-07-31T04:53:00.000Z"  itemprop="datePublished">2019-07-31</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></li></ul>
+
+
+
+            
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <p>【持续更新】最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析</p>
+<ul>
+<li><a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">https://www.simon96.online/2018/10/12/hexo-tutorial/</a></li>
+</ul>
+<p>前言</p>
+<pre><code>欢迎在文末留言，或者点击加入QQ群933583982互相交流。
+本文采用 CC BY-NC-SA 4.0 许可协议，转载请注明出处！</code></pre><p>博客搭建<br>准备环境</p>
+<pre><code>Node.js 下载，并安装。详细步骤：https://www.simon96.online/2018/11/10/hexo-env/
+
+Git 下载，并安装。详细步骤：https://www.simon96.online/2018/11/10/hexo-env/
+
+安装Hexo，在命令行（即Git Bash）运行以下命令：
+
+    npm install -g hexo-cli
+
+初始化Hexo，在命令行（即Git Bash）依次运行以下命令即可：
+
+以下，即存放Hexo初始化文件的路径， 即站点目录。</code></pre><p>$ hexo init <folder><br>$ cd <folder><br>$ npm install</p>
+<p>新建完成后，在路径下，会产生这些文件和文件夹：</p>
+<pre><code>.
+├── _config.yml
+├── package.json
+├── scaffolds
+├── source
+|   ├── _drafts
+|   └── _posts
+└── themes
+
+注：
+
+    hexo相关命令均在站点目录下，用Git Bash运行。
+
+    站点配置文件：站点目录下的_config.yml。
+
+    ​ 路径为&lt;folder&gt;\_config.yml
+
+    主题配置文件：站点目录下的themes文件夹下的，主题文件夹下的_config.yml。
+
+    ​ 路径为&lt;folder&gt;\themes\&lt;主题文件夹&gt;\_config.yml
+
+启动服务器。在路径下，命令行（即Git Bash）输入以下命令，运行即可：
+
+    hexo server
+
+浏览器访问网址： http://localhost:4000/</code></pre><p>至此，您的Hexo博客已经搭建在本地。<br>实施方案<br>方案一：GithubPages</p>
+<pre><code>创建Github账号
+
+创建仓库， 仓库名为：&lt;Github账号名称&gt;.github.io
+
+将本地Hexo博客推送到GithubPages
+
+3.1. 安装hexo-deployer-git插件。在命令行（即Git Bash）运行以下命令即可：</code></pre><p>$ npm install hexo-deployer-git –save</p>
+<p>3.2. 添加SSH key。</p>
+<pre><code>创建一个 SSH key 。在命令行（即Git Bash）输入以下命令， 回车三下即可：</code></pre><p>$ ssh-keygen -t rsa -C “邮箱地址”</p>
+<p>添加到 github。 复制密钥文件内容（路径形如C:\Users\Administrator.ssh\id_rsa.pub），粘贴到New SSH Key即可。</p>
+<p>测试是否添加成功。在命令行（即Git Bash）依次输入以下命令，返回“You’ve successfully authenticated”即成功：</p>
+<pre><code>$ ssh -T git@github.com
+$ yes</code></pre><p>3.3. 修改_config.yml（在站点目录下）。文件末尾修改为：</p>
+<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h1><h2 id="Docs-https-hexo-io-docs-deployment-html"><a href="#Docs-https-hexo-io-docs-deployment-html" class="headerlink" title="Docs: https://hexo.io/docs/deployment.html"></a>Docs: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">https://hexo.io/docs/deployment.html</a></h2><p>deploy:<br>  type: git<br>  repo: <a href="mailto:git@github.com">git@github.com</a>:&lt;Github账号名称&gt;/&lt;Github账号名称&gt;.github.io.git<br>  branch: master</p>
+<p>注意：上面仓库地址写ssh地址，不写http地址。</p>
+<p>3.4. 推送到GithubPages。在命令行（即Git Bash）依次输入以下命令， 返回INFO Deploy done: git即成功推送：</p>
+<pre><code>$ hexo g
+$ hexo d
+
+等待1分钟左右，浏览器访问网址： https://&lt;Github账号名称&gt;.github.io</code></pre><p>至此，您的Hexo博客已经搭建在GithubPages, 域名为https://&lt;Github账号名称&gt;.github.io。<br>方案二：GithubPages + 域名</p>
+<p>在方案一的基础上，添加自定义域名（您购买的域名）。</p>
+<pre><code>域名解析。
+
+类型选择为 CNAME；
+
+主机记录即域名前缀，填写为www；
+
+记录值填写为&lt;Github账号名称&gt;.github.io；
+
+解析线路，TTL 默认即可。
+
+仓库设置。
+
+2.1. 打开博客仓库设置：https://github.com/&lt;Github账号名称&gt;/&lt;Github账号名称&gt;.github.io/settings
+
+2.2. 在Custom domain下，填写自定义域名，点击save。
+
+2.3. 在站点目录的source文件夹下，创建并打开CNAME.txt，写入你的域名（如www.simon96.online），保存，并重命名为CNAME。
+
+等待10分钟左右。
+
+浏览器访问自定义域名。
+
+至此，您的Hexo博客已经解析到自定义域名，https://&lt;Github账号名称&gt;.github.io依然可用。</code></pre><p>方案三：GithubPages + CodingPages + 域名</p>
+<p>GithubPages 在国内较慢，百度不收录，而CodingPages 在国外较快。所以在方案二的基础上，添加CodingPages 。</p>
+<pre><code>创建Coding账号
+
+创建仓库， 仓库名为：&lt;Coding账号名称&gt;
+
+进入项目里『代码』页面，点击『一键开启静态 Pages』，稍等片刻CodingPages即可部署成功。
+
+将本地Hexo博客推送到CodingPages
+
+4.1. 鉴于创建GithubPages 时，已经生成过公钥。可直接复制密钥文件内容（路径形如C:\Users\Administrator\.ssh\id_rsa.pub）， 粘贴到新增公钥。
+
+4.2. 测试是否添加成功。在命令行（即Git Bash）依次输入以下命令，返回“You’ve successfully authenticated”即成功：</code></pre><p>$ ssh -T <a href="mailto:git@git.coding.net">git@git.coding.net</a><br>$ yes</p>
+<p>4.3. 修改_config.yml（在存放Hexo初始化文件的路径下）。文件末尾修改为：</p>
+<h1 id="Deployment-1"><a href="#Deployment-1" class="headerlink" title="Deployment"></a>Deployment</h1><h2 id="Docs-https-hexo-io-docs-deployment-html-1"><a href="#Docs-https-hexo-io-docs-deployment-html-1" class="headerlink" title="Docs: https://hexo.io/docs/deployment.html"></a>Docs: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">https://hexo.io/docs/deployment.html</a></h2><p>deploy:</p>
+<ul>
+<li>type: git<br>repo: <a href="mailto:git@github.com">git@github.com</a>:&lt;Github账号名称&gt;/&lt;Github账号名称&gt;.github.io.git<br>branch: master</li>
+<li>type: git<br>repo: <a href="mailto:git@git.dev.tencent.com">git@git.dev.tencent.com</a>:&lt;Coding账号名称&gt;/&lt;Coding账号名称&gt;.git<br>branch: master</li>
+</ul>
+<p>4.4. 推送到GithubPages。在命令行（即Git Bash）依次输入以下命令， 返回INFO Deploy done: git即成功推送：</p>
+<pre><code>$ hexo g
+$ hexo d
+
+域名解析
+
+    添加 CNAME 记录指向 &lt;Coding账号名称&gt;.coding.me
+
+    类型选择为 CNAME；
+
+    主机记录即域名前缀，填写为www；
+
+    记录值填写为&lt;Github账号名称&gt;.coding.me；
+
+    解析线路，TTL 默认即可。
+
+    添加 两条A 记录指向 192.30.252.153和192.30.252.154
+
+    类型选择为 A；
+
+    主机记录即域名前缀，填写为@；
+
+    记录值填写为192.30.252.153和192.30.252.154；
+
+    解析线路，境外或谷歌。
+
+    在『Pages 服务』设置页（https://dev.tencent.com/u/&lt;Coding账号名称&gt;/p/&lt;Coding账号名称&gt;/git/pages/settings）中绑定自定义域名。</code></pre><p>至此，您的Hexo博客已经解析到自定义域名，https://&lt;Github账号名称&gt;.github.io和https://&lt;Coding账号名称&gt;.coding.me依然可用。<br>主题优化<br>选择主题</p>
+<p>Hexo默认的主题是landscape，推荐以下主题：</p>
+<pre><code>snippet
+Hiero
+JSimple
+BlueLake</code></pre><p>详见：<a href="https://github.com/search?q=hexo-theme" target="_blank" rel="noopener">https://github.com/search?q=hexo-theme</a><br>应用主题</p>
+<pre><code>下载主题
+将下载好的主题文件夹，粘贴到站点目录的themes下。
+更改站点配置文件_config.yml 的theme字段，为主题文件夹的名称：</code></pre><h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><h2 id="Plugins-https-hexo-io-plugins"><a href="#Plugins-https-hexo-io-plugins" class="headerlink" title="Plugins: https://hexo.io/plugins/"></a>Plugins: <a href="https://hexo.io/plugins/" target="_blank" rel="noopener">https://hexo.io/plugins/</a></h2><h2 id="Themes-https-hexo-io-themes"><a href="#Themes-https-hexo-io-themes" class="headerlink" title="Themes: https://hexo.io/themes/"></a>Themes: <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></h2><p>theme: &lt;主题文件夹的名称&gt;</p>
+<p>主题优化</p>
+<p>以上主题都有比较详细的说明文档，本节主要解决主题优化的常见问题。</p>
+<p>主题优化一般包括：</p>
+<pre><code>设置「RSS」
+
+添加「标签」页面
+
+添加「分类」页面
+
+设置「字体」
+
+问题：引用国外字体镜像较慢。
+
+解决：可以改用国内的。将\themes\*\layout_partials\head external-fonts.swig文件中fonts.google.com改成fonts.lug.ustc.edu.cn。
+
+设置「代码高亮主题」
+
+侧边栏社交链接
+
+问题：图标哪里找？
+
+解决：Font Awesome
+
+开启打赏功能
+
+问题：微信支付宝二维码不美观，规格不一。
+
+解决：在线生成二维码
+
+设置友情链接
+
+腾讯公益404页面
+
+站点建立时间
+
+订阅微信公众号
+
+设置「动画效果」
+
+问题：慢，需要等待 JavaScript 脚本完全加载完毕后才会显示内容。
+解决：将主题配置文件_config.yml中，use_motion字段的值设为 false 来关闭动画。
+
+设置「背景动画」</code></pre><p>主题优化还包括：<br>添加背景图</p>
+<p>在 themes/*/source/css/_custom/custom.styl 中添加如下代码：</p>
+<p>body{<br>    background:url(/images/bg.jpg);<br>    background-size:cover;<br>    background-repeat:no-repeat;<br>    background-attachment:fixed;<br>    background-position:center;<br>}</p>
+<p>修改Logo字体</p>
+<p>在 themes/*/source/css/_custom/custom.styl 中添加如下代码：</p>
+<p>@font-face {<br>    font-family: Zitiming;<br>    src: url(‘/fonts/Zitiming.ttf’);<br>}<br>.site-title {<br>    font-size: 40px !important;<br>    font-family: ‘Zitiming’ !important;<br>}</p>
+<p>其中字体文件在 themes/next/source/fonts 目录下，里面有个 .gitkeep 的隐藏文件，打开写入你要保留的字体文件，比如我的是就是写入 Zitiming.ttf ，具体字库自己从网上下载即可。<br>修改内容区域的宽度</p>
+<p>编辑主题的 source/css/_variables/custom.styl 文件，新增变量：</p>
+<p>// 修改成你期望的宽度<br>$content-desktop = 700px</p>
+<p>// 当视窗超过 1600px 后的宽度<br>$content-desktop-large = 900px</p>
+<p>网站标题栏背景颜色</p>
+<p>打开 themes/*/source/css/_custom/custom.styl ,在里面写下如下代码：</p>
+<p>.site-meta {<br>  background: $blue; //修改为自己喜欢的颜色<br>}</p>
+<p>自定义鼠标样式</p>
+<p>打开 themes/*/source/css/_custom/custom.styl ,在里面写下如下代码：</p>
+<p>// 鼠标样式</p>
+<ul>
+<li>{<br>  cursor: url(“<a href="http://om8u46rmb.bkt.clouddn.com/sword2.ico&quot;),auto!important" target="_blank" rel="noopener">http://om8u46rmb.bkt.clouddn.com/sword2.ico&quot;),auto!important</a><br>}<br>:active {<br>  cursor: url(“<a href="http://om8u46rmb.bkt.clouddn.com/sword1.ico&quot;),auto!important" target="_blank" rel="noopener">http://om8u46rmb.bkt.clouddn.com/sword1.ico&quot;),auto!important</a><br>}</li>
+</ul>
+<p>文章加密访问</p>
+<p>打开 themes/*/layout/_partials/head.swig文件,在 之前插入代码：</p>
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入密码') !== ''){
+                alert('密码错误');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+<p>写文章时加上password: *：</p>
+<hr>
+<p>title: 2018<br>date: 2018-10-25 16:10:03<br>password: 123456</p>
+<hr>
+<p>实现点击出现桃心效果</p>
+<pre><code>在/themes/*/source/js/src下新建文件click.js，接着把以下粘贴到click.js文件中。
+代码如下：</code></pre><p>!function(e,t,a){function n(){c(“.heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: ‘’;width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}”),o(),r()}function r(){for(var e=0;e&lt;d.length;e++)d[e].alpha&lt;=0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y–,d[e].scale+=.004,d[e].alpha-=.013,d[e].el.style.cssText=”left:”+d[e].x+”px;top:”+d[e].y+”px;opacity:”+d[e].alpha+”;transform:scale(“+d[e].scale+”,”+d[e].scale+”) rotate(45deg);background:”+d[e].color+”;z-index:99999”);requestAnimationFrame(r)}function o(){var t=”function”==typeof e.onclick&amp;&amp;e.onclick;e.onclick=function(e){t&amp;&amp;t(),i(e)}}function i(e){var a=t.createElement(“div”);a.className=”heart”,d.push({el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()}),t.body.appendChild(a)}function c(e){var a=t.createElement(“style”);a.type=”text/css”;try{a.appendChild(t.createTextNode(e))}catch(t){a.styleSheet.cssText=e}t.getElementsByTagName(“head”)[0].appendChild(a)}function s(){return”rgb(“+<del>(255*Math.random())+”,”+</del>(255<em>Math.random())+”,”+~~(255</em>Math.random())+”)”}var d=[];e.requestAnimationFrame=function(){return e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(e){setTimeout(e,1e3/60)}}(),n()}(window,document);</p>
+<pre><code>在\themes\*\layout\_layout.swig文件末尾添加：</code></pre><!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
+
+<p>静态资源压缩</p>
+<p>在站点目录下：</p>
+<p>$ npm install gulp -g</p>
+<p>安装gulp插件：</p>
+<p>npm install gulp-minify-css –save<br>npm install gulp-uglify –save<br>npm install gulp-htmlmin –save<br>npm install gulp-htmlclean –save<br>npm install gulp-imagemin –save</p>
+<p>在 Hexo 站点下新建 gulpfile.js文件，文件内容如下：</p>
+<p>var gulp = require(‘gulp’);<br>var minifycss = require(‘gulp-minify-css’);<br>var uglify = require(‘gulp-uglify’);<br>var htmlmin = require(‘gulp-htmlmin’);<br>var htmlclean = require(‘gulp-htmlclean’);<br>var imagemin = require(‘gulp-imagemin’);<br>// 压缩css文件<br>gulp.task(‘minify-css’, function() {<br>  return gulp.src(‘./public/<strong>/*.css’)<br>  .pipe(minifycss())<br>  .pipe(gulp.dest(‘./public’));<br>});<br>// 压缩html文件<br>gulp.task(‘minify-html’, function() {<br>  return gulp.src(‘./public/</strong>/<em>.html’)<br>  .pipe(htmlclean())<br>  .pipe(htmlmin({<br>    removeComments: true,<br>    minifyJS: true,<br>    minifyCSS: true,<br>    minifyURLs: true,<br>  }))<br>  .pipe(gulp.dest(‘./public’))<br>});<br>// 压缩js文件<br>gulp.task(‘minify-js’, function() {<br>    return gulp.src([‘./public/<strong>/.js’,’!./public/js/</strong>/<em>min.js’])<br>        .pipe(uglify())<br>        .pipe(gulp.dest(‘./public’));<br>});<br>// 压缩 public/demo 目录内图片<br>gulp.task(‘minify-images’, function() {<br>    gulp.src(‘./public/demo/*</em>/</em>.*’)<br>        .pipe(imagemin({<br>           optimizationLevel: 5, //类型：Number  默认：3  取值范围：0-7（优化等级）<br>           progressive: true, //类型：Boolean 默认：false 无损压缩jpg图片<br>           interlaced: false, //类型：Boolean 默认：false 隔行扫描gif进行渲染<br>           multipass: false, //类型：Boolean 默认：false 多次优化svg直到完全优化<br>        }))<br>        .pipe(gulp.dest(‘./public/uploads’));<br>});<br>// 默认任务<br>gulp.task(‘default’, [<br>  ‘minify-html’,’minify-css’,’minify-js’,’minify-images’<br>]);</p>
+<p>只需要每次在执行 generate 命令后执行 gulp 就可以实现对静态资源的压缩，压缩完成后执行 deploy 命令同步到服务器：</p>
+<p>hexo g<br>gulp<br>hexo d</p>
+<p>修改访问URL路径</p>
+<p>默认情况下访问URL路径为：domain/2018/10/18/关于本站,修改为 domain/About/关于本站。 编辑 Hexo 站点下的 _config.yml 文件，修改其中的 permalink字段：</p>
+<p>permalink: :category/:title/</p>
+<p>博文置顶</p>
+<pre><code>安装插件
+
+$ npm uninstall hexo-generator-index --save
+$ npm install hexo-generator-index-pin-top --save</code></pre><p>然后在需要置顶的文章的Front-matter中加上top即可：</p>
+<hr>
+<p>title: 2018<br>date: 2018-10-25 16:10:03<br>top: 10</p>
+<hr>
+<pre><code>设置置顶标志</code></pre><p>打开：/themes/*/layout/_macro/post.swig，定位到<br>，插入以下代码即可：</p>
+{% if post.top %}
+  <i class="fa fa-thumb-tack"></i>
+  <font color=7D26CD>置顶</font>
+  <span class="post-meta-divider">|</span>
+{% endif %}
+
+<p>在右上角或者左上角实现fork me on github</p>
+<pre><code>选择样式GitHub Ribbons,
+修改图片跳转链接,将&lt;a href=&quot;https://github.com/you&quot;&gt;中的链接换为自己Github链接：
+打开 themes/next/layout/_layout.swig 文件，把代码复制到&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;下面。</code></pre><p>主页文章添加边框阴影效果</p>
+<p>打开 themes/*/source/css/_custom/custom.styl ,向里面加代码:</p>
+<p>// 主页文章添加阴影效果<br>.post {<br>   margin-top: 0px;<br>   margin-bottom: 60px;<br>   padding: 25px;<br>   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);<br>   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);<br>}</p>
+<p>显示当前浏览进度</p>
+<p>修改themes/*/_config.yml，把 false 改为 true：</p>
+<h1 id="Back-to-top-in-sidebar"><a href="#Back-to-top-in-sidebar" class="headerlink" title="Back to top in sidebar"></a>Back to top in sidebar</h1><p>b2t: true</p>
+<h1 id="Scroll-percent-label-in-b2t-button"><a href="#Scroll-percent-label-in-b2t-button" class="headerlink" title="Scroll percent label in b2t button"></a>Scroll percent label in b2t button</h1><p>scrollpercent: true</p>
+<p>创建分类页</p>
+<p>在终端窗口下，定位到 Hexo 站点目录下，新建：</p>
+<p>$ cd &lt;站点目录&gt;<br>$ hexo new page categories</p>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2019-07-31T04:53:00.000Z" itemprop="dateUpdated">2019-07-31 12:53:00</time>
+</span><br>
+
+
+        
+    </div>
+    
+    <footer>
+        <a href="http://blog.larkersos.com">
+            <img src="/img/avatar.png" alt="洛克">
+            洛克
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/" rel="tag">hexo </a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/&title=《最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）》 — 落客纷纷&pic=http://blog.larkersos.com/img/avatar.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/&title=《最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）》 — 落客纷纷&source=总是说，忙没时间。 当回过头来的时候，发现，太多的遗忘。" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）》 — 落客纷纷&url=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/&via=http://blog.larkersos.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/2019/07/31/hexo-next-init/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">hexo搭建个人博客–NexT主题优化（转）</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2017/09/25/post2/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">second-post2</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢大爷~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/wechat.png" alt="打赏二维码">
+        </div>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+
+        <p>
+            
+            <span>博客内容遵循 <a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>洛克 &copy; 2005 - 2020</span>
+            <span>
+                
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/&title=《最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）》 — 落客纷纷&pic=http://blog.larkersos.com/img/avatar.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/&title=《最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）》 — 落客纷纷&source=总是说，忙没时间。 当回过头来的时候，发现，太多的遗忘。" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析（  转）》 — 落客纷纷&url=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/&via=http://blog.larkersos.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://blog.larkersos.com/2019/07/31/%E8%BD%AC-hexo/" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '死鬼去哪里了！';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '(つェ⊂)咦!又好了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
