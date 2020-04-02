@@ -1,80 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hello201908</title>
-    <url>/2019/08/01/hello201908/</url>
-    <content><![CDATA[<h1 id="八月，你好！"><a href="#八月，你好！" class="headerlink" title="八月，你好！"></a>八月，你好！</h1><p>又到一号，一个全新的月。<br>正好，我的博客重新部署开启了，那就以后开始新的记录吧。</p>
-<p><img src="hello201908/20190801-1.png" alt="upload successful"></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo迁移</title>
-    <url>/2020/04/01/hexo%E8%BF%81%E7%A7%BB/</url>
-    <content><![CDATA[<h4 id="hexo迁移导致的一些问题"><a href="#hexo迁移导致的一些问题" class="headerlink" title="hexo迁移导致的一些问题"></a>hexo迁移导致的一些问题</h4><ol>
-<li><p>找不到hexo执行命令</p>
-<pre><code>ERROR Local hexo not found in D:\XXXX
-ERROR Try running: &apos;npm install hexo --save&apos;</code></pre></li>
-<li><p>分析原因是因为迁移的时候 node_models 这个文件夹不干净，导致。</p>
-<p>解决办法：</p>
-<pre><code>删除 node_models
-执行 nap install
-重新 hero g， hero s 正常启动</code></pre></li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>2020</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>second-post2</title>
-    <url>/2017/09/25/post2/</url>
-    <content><![CDATA[<h1 id="这是第二个练习页面"><a href="#这是第二个练习页面" class="headerlink" title="这是第二个练习页面"></a>这是第二个练习页面</h1><ul>
-<li>2017/09/25<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://n.sinaimg.cn/translate/20170929/GsUo-fymmiwm0962131.jpg" alt="这是一个世界"></h2></li>
-</ul>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>练习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>团建出行计划</title>
-    <url>/2019/08/01/tuanjian201908/</url>
-    <content><![CDATA[<p><img src="./tuanjian201908/tuanjian.png" alt="团建整体安排"></p>
-<ul>
-<li><p>行程8月2日（周五）<br>下午2点在京东a座 座大巴出发，大概两个小时车程到平谷目的地，到了之后咱们先安排下房间，房间分配下房间，然后就可以周边小逛一下，探探路</p>
-</li>
-<li><p>大概6点半左右，在农家院附近进行自助烧烤，吃串喝酒，完事美美在三人间睡上一觉，睡不着可以再客厅打个牌啥的，不要睡太晚</p>
-</li>
-<li><p>明早要早起8月3日（周六）7:30 点早餐开始，餐后前往平谷著名景区天云山风景区，挑战云中漫步玻璃吊桥。平谷天云山介绍：天云山风景区峰峦叠章、怪石嶙峋、有：“横看成陵侧成峰、远近高低各不同”一座座山峰如水墨山水、如石林画屏、飞入眼帘、山峰高耸林立、突兀峥嵘、这里山林茂密、空谷鸟鸣、景点内的屏翠峰、莲花峰、四姑娘山、玉屏山、拔地而起、直入云霄。既有北方雄伟壮观之势、又有南方山川秀丽挺俊之韵。全国最长玻璃栈道——平谷天云山“勇者”玻璃栈道.已于2015年4 月24 日全部竣工，对外开放。</p>
-</li>
-<li><p>12:30 左右品尝农家特色午餐；餐后返回单位，结束愉快的行程！路上按路程可以和司机商量市区停靠点，到时候这里公布。</p>
-</li>
-</ul>
-<ul>
-<li>房间分配​​需带物品身份证，遮阳伞 ，蚊虫药，洗漱用品，充电宝，帽子 防晒霜，自拍杆，穿运动鞋</li>
-</ul>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>出行</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2020/04/01/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -91,6 +17,19 @@ ERROR Try running: &apos;npm install hexo --save&apos;</code></pre></li>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>hello201908</title>
+    <url>/2019/08/01/hello201908/</url>
+    <content><![CDATA[<h1 id="八月，你好！"><a href="#八月，你好！" class="headerlink" title="八月，你好！"></a>八月，你好！</h1><p>又到一号，一个全新的月。<br>正好，我的博客重新部署开启了，那就以后开始新的记录吧。</p>
+<p><img src="hello201908/20190801-1.png" alt="upload successful"></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
+      </tags>
   </entry>
   <entry>
     <title>hexo搭建个人博客–NexT主题优化（转）</title>
@@ -143,6 +82,42 @@ DaoVoice在线联系</code></pre><p>2 个性化优化</p>
       </tags>
   </entry>
   <entry>
+    <title>hexo迁移</title>
+    <url>/2020/04/01/hexo%E8%BF%81%E7%A7%BB/</url>
+    <content><![CDATA[<h4 id="hexo迁移导致的一些问题"><a href="#hexo迁移导致的一些问题" class="headerlink" title="hexo迁移导致的一些问题"></a>hexo迁移导致的一些问题</h4><ol>
+<li><p>找不到hexo执行命令</p>
+<pre><code>ERROR Local hexo not found in D:\XXXX
+ERROR Try running: &apos;npm install hexo --save&apos;</code></pre></li>
+<li><p>分析原因是因为迁移的时候 node_models 这个文件夹不干净，导致。</p>
+<p>解决办法：</p>
+<pre><code>删除 node_models
+执行 nap install
+重新 hero g， hero s 正常启动</code></pre></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>2020</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>second-post2</title>
+    <url>/2017/09/25/post2/</url>
+    <content><![CDATA[<h1 id="这是第二个练习页面"><a href="#这是第二个练习页面" class="headerlink" title="这是第二个练习页面"></a>这是第二个练习页面</h1><ul>
+<li>2017/09/25<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://n.sinaimg.cn/translate/20170929/GsUo-fymmiwm0962131.jpg" alt="这是一个世界"></h2></li>
+</ul>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>练习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>今天早上修了一个灯</title>
     <url>/2019/07/31/shenghuo20190731/</url>
     <content><![CDATA[<h1 id="今天早上修了一个灯"><a href="#今天早上修了一个灯" class="headerlink" title="今天早上修了一个灯"></a>今天早上修了一个灯</h1><p>前天夜里，突然一声响动，查看一番，才知道，厕所的灯罩调了，原来是多年的老化，灯罩的卡头坏。</p>
@@ -179,6 +154,31 @@ DaoVoice在线联系</code></pre><p>2 个性化优化</p>
       </categories>
       <tags>
         <tag>动动手</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>团建出行计划</title>
+    <url>/2019/08/01/tuanjian201908/</url>
+    <content><![CDATA[<p><img src="./tuanjian201908/tuanjian.png" alt="团建整体安排"></p>
+<ul>
+<li><p>行程8月2日（周五）<br>下午2点在京东a座 座大巴出发，大概两个小时车程到平谷目的地，到了之后咱们先安排下房间，房间分配下房间，然后就可以周边小逛一下，探探路</p>
+</li>
+<li><p>大概6点半左右，在农家院附近进行自助烧烤，吃串喝酒，完事美美在三人间睡上一觉，睡不着可以再客厅打个牌啥的，不要睡太晚</p>
+</li>
+<li><p>明早要早起8月3日（周六）7:30 点早餐开始，餐后前往平谷著名景区天云山风景区，挑战云中漫步玻璃吊桥。平谷天云山介绍：天云山风景区峰峦叠章、怪石嶙峋、有：“横看成陵侧成峰、远近高低各不同”一座座山峰如水墨山水、如石林画屏、飞入眼帘、山峰高耸林立、突兀峥嵘、这里山林茂密、空谷鸟鸣、景点内的屏翠峰、莲花峰、四姑娘山、玉屏山、拔地而起、直入云霄。既有北方雄伟壮观之势、又有南方山川秀丽挺俊之韵。全国最长玻璃栈道——平谷天云山“勇者”玻璃栈道.已于2015年4 月24 日全部竣工，对外开放。</p>
+</li>
+<li><p>12:30 左右品尝农家特色午餐；餐后返回单位，结束愉快的行程！路上按路程可以和司机商量市区停靠点，到时候这里公布。</p>
+</li>
+</ul>
+<ul>
+<li>房间分配​​需带物品身份证，遮阳伞 ，蚊虫药，洗漱用品，充电宝，帽子 防晒霜，自拍杆，穿运动鞋</li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>出行</tag>
       </tags>
   </entry>
   <entry>
@@ -246,8 +246,8 @@ DaoVoice在线联系</code></pre><p>2 个性化优化</p>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>2020</tag>
         <tag>hexo</tag>
+        <tag>2020</tag>
       </tags>
   </entry>
   <entry>
@@ -301,8 +301,8 @@ admin:
         <category>技术</category>
       </categories>
       <tags>
-        <tag>2020</tag>
         <tag>hexo</tag>
+        <tag>2020</tag>
       </tags>
   </entry>
 </search>
