@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>hello201908</title>
+    <url>/2019/08/01/hello201908/</url>
+    <content><![CDATA[<h1 id="八月，你好！"><a href="#八月，你好！" class="headerlink" title="八月，你好！"></a>八月，你好！</h1><p>又到一号，一个全新的月。<br>正好，我的博客重新部署开启了，那就以后开始新的记录吧。</p>
+<p><img src="hello201908/20190801-1.png" alt="upload successful"></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo迁移</title>
+    <url>/2020/04/01/hexo%E8%BF%81%E7%A7%BB/</url>
+    <content><![CDATA[<h4 id="hexo迁移导致的一些问题"><a href="#hexo迁移导致的一些问题" class="headerlink" title="hexo迁移导致的一些问题"></a>hexo迁移导致的一些问题</h4><ol>
+<li><p>找不到hexo执行命令</p>
+<pre><code>ERROR Local hexo not found in D:\XXXX
+ERROR Try running: &apos;npm install hexo --save&apos;</code></pre></li>
+<li><p>分析原因是因为迁移的时候 node_models 这个文件夹不干净，导致。</p>
+<p>解决办法：</p>
+<pre><code>删除 node_models
+执行 nap install
+重新 hero g， hero s 正常启动</code></pre></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>2020</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>second-post2</title>
+    <url>/2017/09/25/post2/</url>
+    <content><![CDATA[<h1 id="这是第二个练习页面"><a href="#这是第二个练习页面" class="headerlink" title="这是第二个练习页面"></a>这是第二个练习页面</h1><ul>
+<li>2017/09/25<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://n.sinaimg.cn/translate/20170929/GsUo-fymmiwm0962131.jpg" alt="这是一个世界"></h2></li>
+</ul>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>练习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>团建出行计划</title>
+    <url>/2019/08/01/tuanjian201908/</url>
+    <content><![CDATA[<p><img src="./tuanjian201908/tuanjian.png" alt="团建整体安排"></p>
+<ul>
+<li><p>行程8月2日（周五）<br>下午2点在京东a座 座大巴出发，大概两个小时车程到平谷目的地，到了之后咱们先安排下房间，房间分配下房间，然后就可以周边小逛一下，探探路</p>
+</li>
+<li><p>大概6点半左右，在农家院附近进行自助烧烤，吃串喝酒，完事美美在三人间睡上一觉，睡不着可以再客厅打个牌啥的，不要睡太晚</p>
+</li>
+<li><p>明早要早起8月3日（周六）7:30 点早餐开始，餐后前往平谷著名景区天云山风景区，挑战云中漫步玻璃吊桥。平谷天云山介绍：天云山风景区峰峦叠章、怪石嶙峋、有：“横看成陵侧成峰、远近高低各不同”一座座山峰如水墨山水、如石林画屏、飞入眼帘、山峰高耸林立、突兀峥嵘、这里山林茂密、空谷鸟鸣、景点内的屏翠峰、莲花峰、四姑娘山、玉屏山、拔地而起、直入云霄。既有北方雄伟壮观之势、又有南方山川秀丽挺俊之韵。全国最长玻璃栈道——平谷天云山“勇者”玻璃栈道.已于2015年4 月24 日全部竣工，对外开放。</p>
+</li>
+<li><p>12:30 左右品尝农家特色午餐；餐后返回单位，结束愉快的行程！路上按路程可以和司机商量市区停靠点，到时候这里公布。</p>
+</li>
+</ul>
+<ul>
+<li>房间分配​​需带物品身份证，遮阳伞 ，蚊虫药，洗漱用品，充电宝，帽子 防晒霜，自拍杆，穿运动鞋</li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>出行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/04/01/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo搭建个人博客–NexT主题优化（转）</title>
+    <url>/2019/07/31/hexo-next-init/</url>
+    <content><![CDATA[<p>hexo搭建个人博客–NexT主题优化</p>
+<ul>
+<li>转自：<a href="https://segmentfault.com/a/1190000013660164" target="_blank" rel="noopener">https://segmentfault.com/a/1190000013660164</a></li>
+</ul>
+<p>目录</p>
+<p>1 实用性优化</p>
+<pre><code>基本使用（_config.yml文件配置）
+添加RSS
+添加标签、分类等页面
+设置网站icon
+添加侧边栏社交链接
+添加侧边栏友情链接
+底部显示建站时间和图标的修改
+微信支付宝打赏功能
+关闭网站动画效果
+设置第三方JS库
+添加评论系统
+统计访客量以及文章阅读量
+阅读次数统计（基于LanCloud）
+字数统计
+增加版权信息
+添加文章分享功能
+文章排序优先级设置
+添加站内搜索功能
+DaoVoice在线联系</code></pre><p>2 个性化优化</p>
+<pre><code>设置字体
+设置代码高亮主题
+左上角或右上角的Github样式
+添加背景动画
+添加顶部加载条
+点击出现小爱心效果
+修改文章链接文本样式
+修改文章底部标签样式
+文章末尾统一添加“文本结束”标记
+修改作者头像并旋转
+文章添加阴影效果
+修改打赏部分字体动画
+自定义鼠标样式
+添加看板娘</code></pre>]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>今天早上修了一个灯</title>
+    <url>/2019/07/31/shenghuo20190731/</url>
+    <content><![CDATA[<h1 id="今天早上修了一个灯"><a href="#今天早上修了一个灯" class="headerlink" title="今天早上修了一个灯"></a>今天早上修了一个灯</h1><p>前天夜里，突然一声响动，查看一番，才知道，厕所的灯罩调了，原来是多年的老化，灯罩的卡头坏。</p>
+<p>要不要买个新灯呢，一看地上的灯罩，还是完好的，这样，还是修修吧。</p>
+<h2 id="今天早上，开始修灯了"><a href="#今天早上，开始修灯了" class="headerlink" title="今天早上，开始修灯了"></a>今天早上，开始修灯了</h2><ul>
+<li>第一步，要找一个等替代原来的卡片。</li>
+</ul>
+<p><img src="shenghuo20190731/1.png" alt="upload 1"></p>
+<ul>
+<li><p>找了以前的一些螺丝，发现不太匹配</p>
+</li>
+<li><p>想起来了，可以用一个小垫片就可以了</p>
+</li>
+</ul>
+<p><img src="shenghuo20190731/2.png" alt="upload 2"></p>
+<ul>
+<li>阳台有好多的啤酒易拉罐呢，将拉环取下来，看着正合适。</li>
+</ul>
+<p><img src="shenghuo20190731/3.png" alt="upload 3"></p>
+<ul>
+<li>打个眼，用来上螺丝</li>
+</ul>
+<p><img src="shenghuo20190731/4.png" alt="upload 4"></p>
+<ul>
+<li>安装，上螺丝</li>
+</ul>
+<p><img src="shenghuo20190731/5.png" alt="upload 5"></p>
+<ul>
+<li>ok了</li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>动动手</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用hexo+github搭建免费个人博客详细教程（转）</title>
+    <url>/2019/07/31/%E4%BD%BF%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B%EF%BC%88%E8%BD%AC%EF%BC%89/</url>
+    <content><![CDATA[<p>使用hexo+github搭建免费个人博客详细教程</p>
+<ul>
+<li><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html</a></li>
+</ul>
+<p>目录</p>
+<pre><code>前言
+    准备工作
+搭建github博客
+    创建仓库
+    绑定域名
+配置SSH key
+    测试是否成功
+使用hexo写博客
+    hexo简介
+    原理
+    注意事项
+    安装
+    初始化
+    修改主题
+    上传之前
+    上传到github
+    保留CNAME、README.md等文件
+    常用hexo命令
+    _config.yml
+    写博客
+        写博客工具
+        如何让博文列表不显示全部内容
+最终效果
+参考</code></pre>]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo </tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>20200401</title>
+    <url>/2020/03/31/2020/20200401/</url>
+    <content><![CDATA[<h1 id="四月一日，是愚人节，也是一个新的月份的开始"><a href="#四月一日，是愚人节，也是一个新的月份的开始" class="headerlink" title="四月一日，是愚人节，也是一个新的月份的开始"></a>四月一日，是愚人节，也是一个新的月份的开始</h1><h2 id="太多的事情，就是慢慢的被单独了"><a href="#太多的事情，就是慢慢的被单独了" class="headerlink" title="太多的事情，就是慢慢的被单独了"></a>太多的事情，就是慢慢的被单独了</h2>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>2020</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-admin部署应用</title>
+    <url>/2020/04/01/2020/hexo-admin%E9%83%A8%E7%BD%B2%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<h4 id="使用hexo-admin做部署失败，因为deploy的配置有问题"><a href="#使用hexo-admin做部署失败，因为deploy的配置有问题" class="headerlink" title="使用hexo-admin做部署失败，因为deploy的配置有问题"></a>使用hexo-admin做部署失败，因为deploy的配置有问题</h4><ol>
+<li>windows设置</li>
+</ol>
+<ol start="2">
+<li>linux<pre><code>linux使用bshell搅拌</code></pre></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>2020</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo新的起点2020</title>
+    <url>/2020/04/01/2020/%E6%96%B0%E7%9A%84%E8%B5%B7%E7%82%B92020/</url>
+    <content><![CDATA[<p>博客好久不能用了，今日开始重新部署，做个标记20200401</p>
+<h3 id="1-目前有的问题是"><a href="#1-目前有的问题是" class="headerlink" title="1.目前有的问题是"></a>1.目前有的问题是</h3><ol>
+<li>hexo不能启动</li>
+<li>hexo-admin不能用</li>
+</ol>
+<h3 id="2-问题分析"><a href="#2-问题分析" class="headerlink" title="2.问题分析"></a>2.问题分析</h3><p>版本问题，太久没有更新<br>配置问题，deploy配置错误</p>
+<h3 id="3-解决办法"><a href="#3-解决办法" class="headerlink" title="3.解决办法"></a>3.解决办法</h3><ul>
+<li><p>hexo的项目重新建立</p>
+<ol>
+<li><p>重新下载hexo </p>
+<pre><code>npm install hexo -g
+hexo init hexo-blog
+cd hexo-blog
+hexo install</code></pre></li>
+<li><p>更新使用hexo-admin</p>
+<pre><code>npm install hexo-admin</code></pre></li>
+<li><p>编译启动服务</p>
+<pre><code>hexo g
+hexo s</code></pre></li>
+<li><p>访问服务 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 正常</p>
+</li>
+</ol>
+<ul>
+<li><p>关于hexo-admin</p>
+<pre><code>配置了deploy后hexo-admin后台不能正常使用，所以使用admin的时候，不配置deploy</code></pre></li>
+<li><p>配置deploy，_config.yml 追加</p>
+<pre><code>  # Deployment
+  ## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  # 部署到github
+  repository: https://github.com/larkersos/larkersos.github.io.git
+  branch: master # github分支
+
+admin:
+  username: 用户名
+  password_hash: 密码，使用admin可以生产
+  secret: 123456</code></pre></li>
+<li><p>部署到配置的git地址</p>
+<pre><code>hexo d</code></pre></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>2020</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+</search>
